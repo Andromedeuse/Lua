@@ -1,4 +1,8 @@
 wait(5)
+local Part = Instance.new("Part", game.Workspace)
+Part.Name = "LOL"
+Part.Anchored = true
+Part.CFrame = CFrame.new(Vector3.new(0, 10, 0))
 local BillboardGui = Instance.new("BillboardGui")
 BillboardGui.Size = UDim2.new(5, 0, 5, 0)
 local TextLabel = Instance.new("TextLabel", BillboardGui)
